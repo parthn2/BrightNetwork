@@ -47,6 +47,7 @@ int main() {
       commandList.clear();
     }
   }
+  // vp.resetGlobalVariable();
   std::cout
       << "YouTube has now terminated it's execution. Thank you and goodbye!"
       << std::endl;

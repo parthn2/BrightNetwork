@@ -10,9 +10,13 @@
 class VideoPlayer {
  private:
   VideoLibrary mVideoLibrary;
+  int isVideoPlaying = 0;
+  std::string playingVideoTitle;
+  int isVideoPaused = 0;
 
  public:
   VideoPlayer() = default;
+  std::vector<std::vector<std::string>> Playlists;
 
   // This class is not copyable to avoid expensive copies.
   VideoPlayer(const VideoPlayer&) = delete;
